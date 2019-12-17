@@ -100,6 +100,7 @@ b2Body::b2Body(const b2BodyDef* bd, b2World* world)
 	m_invI = 0.0f;
 
 	m_userData = bd->userData;
+	
 
 	m_fixtureList = nullptr;
 	m_fixtureCount = 0;
