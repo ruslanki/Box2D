@@ -121,7 +121,8 @@ struct b2BodyDef
 	bool userData;
 
 	/// Scale the gravity applied to this body.
-	float32 gravityScale;
+	float32 gravityScale; 
+	
 };
 
 /// A rigid body. These are created via b2World::CreateBody.
